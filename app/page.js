@@ -42,7 +42,7 @@ export default function Home() {
         value={name}
         onChange={(e) => setName(e.target.value)}
       />
-      <button onClick={submitName}>add</button>
+      <button onClick={submitName}>addd</button>
       <ul>
         {data.map((item) => (
           <li key={item._id}>
